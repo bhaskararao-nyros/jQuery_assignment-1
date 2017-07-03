@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="jQuery demo features">
+    <meta name="author" content="Bhaskararao Gummidi">
+	<title>jQuery demo features</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<script src="./assets/js/script.js"></script>
+</head>
+<body>
+<div class="breadcrumb">
+	<h3>You can see <em>Tabs</em> here</h3>
+  <div class="container">				<!-- tabs container starting -->
+		<ul>
+			<li class="tabs" id="tab1">Angular Js</li>
+			<li class="tabs" id="tab2">React Js</li>
+			<li class="tabs" id="tab3">Node Js</li>
+			<li class="tabs" id="tab4">Vue Js</li>
+		</ul>
+	<div class="content">
+		<div class="tab-info" id="content1">
+		AngularJS is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. The JavaScript components complement Apache Cordova, the framework used for developing cross-platform mobile apps.
+		</div>
+		<div class="tab-info" id="content2">
+		React is an open-source JavaScript library[2] for building user interfaces.
+		It is maintained by Facebook, Instagram and a community of individual developers and corporations.According to JavaScript analytics service Libscore, React is currently being used on the websites of Netflix, Imgur, Buffer, Bleacher Report, Feedly, Airbnb, SeatGeek, HelloSign, Walmart, and others.
+		</div>
+		<div class="tab-info" id="content3">
+		Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Historically, JavaScript was used primarily for client-side scripting, in which scripts written in JavaScript are embedded in a webpage's HTML, to be run client-side by a JavaScript engine in the user's web browser.
+		</div>
+		<div class="tab-info" id="content4">
+		Vue.js is an open-source progressive JavaScript framework for building user interfaces.[4] Integration into projects that use other JavaScript libraries is made easy with Vue because it is designed to be incrementally adoptable. Vue can also function as a web application framework capable of powering advanced single-page applications.
+		</div>
+	</div>
+  </div>								<!-- tabs container ending -->
+  <hr>
+	<h3>You can see <em>Sliders</em> here</h3>
+	<div class="container sliding">			<!-- sliding container starting -->
+		<div class="panel panel-default">
+			<img src="./assets/images/image1.jpg" height="200px" width="500px" class="active imagesid" id="img1" alt="image" title="Wallpaper1">
+			<img src="./assets/images/image2.jpg" height="200px" width="500px" id="img2" class="imagesid" alt="image" title="Wallpaper2">
+			<img src="./assets/images/image3.jpg" height="200px" width="500px" id="img3" class="imagesid" alt="image" title="Wallpaper3">
+			<i class="glyphicon glyphicon-chevron-left left"></i>
+			<i class="glyphicon glyphicon-chevron-right right"></i>
+		</div>							<!-- sliding container ending -->
+	</div>
+	<hr>
+	<h3>Rating us here <em>Bars&Star Ratings</em></h3>   <!-- star rating container starting -->
+	<div class="container">
+		<i class="glyphicon glyphicon-star star"></i>
+		<i class="glyphicon glyphicon-star star1"></i>
+		<i class="glyphicon glyphicon-star star2"></i>
+		<i class="glyphicon glyphicon-star star3"></i>
+		<i class="glyphicon glyphicon-star star4"></i>
+		<p></p>
+	</div>		<!-- star rating container ending -->
+	<hr>
+	<h3>Hover on the textbox to see <em>Tooltip</em></h3>				
+	<div class="container">				<!-- tooltip container starting -->
+		Name : <input type="text" id="username" data-toggle="tooltip" title="Enter your name in the field">
+	</div>							<!-- tooltip container ending -->
+	<hr>
+	<h3>You can see amazing <em>Lightbox</em> here</h3>				<!-- lightbox container starting-->
+	<div class="container">
+		<div id="showimage4" class="well"><img src="./assets/images/image4.jpg" width="736px" height="552px" alt="image" title="Bird"></div>
+		<div id="showimage5" class="well"><img src="./assets/images/image5.jpg" width="736px" height="552px" alt="image" title="Lion cubs"></div>
+		<div id="showimage6" class="well"><img src="./assets/images/image6.jpg" width="736px" height="552px" alt="image" title="Parrot"></div>
+		<div id="showimage7" class="well"><img src="./assets/images/image7.jpg" width="736px" height="552px" alt="image" title="Fox pups"></div>
+		<div id="showimage8" class="well"><img src="./assets/images/image8.jpg" width="736px" height="552px" alt="image" title="China wall"></div>
+		<div id="showimage9" class="well"><img src="./assets/images/image9.jpeg" width="736px" height="552px" alt="image" title="Archipelago"></div>
+
+	<div class="row">
+		<div class="col-lg-2">
+			<img src="./assets/images/image4.jpg" height="140px" width="190px" id="image4" class="Lightbox" alt="image" title="Bird">
+		</div>
+		<div class="col-lg-2">
+			<img src="./assets/images/image5.jpg" height="140px" width="190px" id="image5" class="Lightbox" alt="image" title="Lion cubs">
+		</div>
+		<div class="col-lg-2">
+			<img src="./assets/images/image6.jpg" height="140px" width="190px" id="image6" class="Lightbox" alt="image" title="Parrot">
+		</div>
+		<div class="col-lg-2">
+			<img src="./assets/images/image7.jpg" height="140px" width="190px" id="image7" class="Lightbox" alt="image" title="Fox pups">
+		</div>
+		<div class="col-lg-2">
+			<img src="./assets/images/image8.jpg" height="140px" width="190px" id="image8" class="Lightbox" alt="image" title="China wall">
+		</div>
+		<div class="col-lg-2">
+			<img src="./assets/images/image9.jpeg" height="140px" width="190px" id="image9" class="Lightbox" alt="image" title="Archipelago">
+		</div>
+	</div>
+</div>			<!-- lightbox container ending -->
+<hr>
+	<h3>Click the button to see<em>Modal</em></h3>			<!-- modal container starting-->
+	<div class="container">
+	Click the button to download this file
+		<button class="btn btn-primary btn-sm">Download</button>
+		  <div class="modal fade" id="warning" role="dialog">
+		    <div class="modal-dialog">
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4 class="modal-title">Warning!</h4>
+		        </div>
+		        <div class="modal-body">
+		          <span>Sorry.....! your disk is out of storage</span>
+		        </div>
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-warning btn-sm" data-dismiss="modal">Close</button>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+	</div>				<!-- modal container ending -->
+	<hr>
+	<h3>You can see <em>Typeahead</em> here</h3>		<!-- typeahead/autocomplete -->
+	<div class="container">
+		Choose your programming:<input type="text" name="programming" placeholder="e.g JavaScript" id="inputid">
+	</div>
+</div>
+</body>
+</html>
