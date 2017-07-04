@@ -94,16 +94,19 @@ $(document).ready(function()
 			{
 				$('#img2').fadeIn();
 				$('#img1').hide();
+				$('#img3').hide();
 			}
 			else if(count == 2)
 			{
 				$('#img3').fadeIn();
 				$('#img2').hide();
+				$('#img1').hide();
 			}
 			else if(count == 3)
 			{
 				$('#img1').fadeIn();
 				$('#img3').hide();
+				$('#img2').hide();
 			    count = 0;  
 			}	
 	});
@@ -114,16 +117,19 @@ $(document).ready(function()
 			{
 				$('#img3').fadeIn();
 				$('#img1').hide();
+				$('#img2').hide();
 			}
 			else if(count == 2)
 			{
 				$('#img2').fadeIn();
 				$('#img3').hide();
+				$('#img1').hide();
 			}
 			else if(count == 3)
 			{
 				$('#img1').fadeIn();
 				$('#img2').hide();
+				$('#img3').hide();
 			    count = 0;  
 			}	
 	});
